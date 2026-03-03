@@ -35,7 +35,7 @@ public with sharing class VariablesDataTypesOperators {
         if (a == null || b == null) {
             return null;
         }
-        return (a + b); // Replace null with the variable you used to store the result
+        return a + b; // Replace null with the variable you used to store the result
     }
 
     /**
@@ -250,8 +250,8 @@ public with sharing class VariablesDataTypesOperators {
         final Double MULTIPLY_FACTOR = 5.0;
         final Double DIVIDE_FACTOR = 9.0;
     
-        Double celcius = (fahrenheit - SUBTRACT_FACTOR) * MULTIPLY_FACTOR / DIVIDE_FACTOR;
-        return celcius; // Replace null with the variable you used to store the result
+        Double celsius = (fahrenheit - SUBTRACT_FACTOR) * MULTIPLY_FACTOR / DIVIDE_FACTOR;
+        return celsius; // Replace null with the variable you used to store the result
     }
 
     
